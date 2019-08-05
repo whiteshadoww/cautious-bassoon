@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "232837016223",
+    "firebase_url": "https://alc4-fec25.firebaseio.com",
+    "project_id": "alc4-fec25",
+    "storage_bucket": "alc4-fec25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232837016223:android:0a32ebad6b1e8c7b",
+        "android_client_info": {
+          "package_name": "me.snowshadow.travelmantics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232837016223-spsibdue0ufvd3itcf1di2vooj1lt47a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.snowshadow.travelmantics",
+            "certificate_hash": "41c4d0dc0743c1ca04605b2a97ede35f0d05ed33"
+          }
+        },
+        {
+          "client_id": "232837016223-ikfq2anqf61imoup1ov75hvrkvdvgas5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwsKbTQeoIarzBDdHxGazNeTvZyybg12I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232837016223-ikfq2anqf61imoup1ov75hvrkvdvgas5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

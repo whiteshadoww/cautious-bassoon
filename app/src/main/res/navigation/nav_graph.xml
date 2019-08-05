@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/nav_graph.xml" app:startDestination="@id/dealsFragment">
+
+    <fragment android:id="@+id/dealsFragment"
+              android:name="me.snowshadow.travelmantics.DealsFragment"
+              android:label="DealsFragment">
+        <action android:id="@+id/action_dealsFragment_to_createDealsFragment"
+                app:destination="@id/createDealsFragment"/>
+        <action android:id="@+id/action_dealsFragment_to_viewDealsFragment"
+                app:destination="@id/viewDealsFragment"/>
+    </fragment>
+    <fragment android:id="@+id/createDealsFragment"
+              android:name="me.snowshadow.travelmantics.CreateDealsFragment"
+              android:label="CreateDealsFragment"/>
+    <fragment android:id="@+id/viewDealsFragment"
+              android:name="me.snowshadow.travelmantics.ViewDealsFragment"
+              android:label="ViewDealsFragment"/>
+</navigation>
